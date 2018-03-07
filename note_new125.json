@@ -38,8 +38,23 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "",
-      "config": {},
+      "text": "%sh\nls",
+      "user": "tanishg@qubole.com",
+      "dateUpdated": "Mar 7, 2018 12:08:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -47,7 +62,29 @@
       "version": "v0",
       "jobName": "paragraph_1520410867629_1913560181",
       "id": "20180307-082107_1341182571_q_MH38GHTM2J1507626786",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nboot\ncgroup\ndev\netc\nhome\nindex.html\nindex.html.1\ninstall_r_package_rb50.bash\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nopt\nproc\nqfs\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n"
+      },
       "dateCreated": "Mar 7, 2018 8:21:07 AM",
+      "dateSubmitted": "Mar 7, 2018 12:08:14 PM",
+      "dateStarted": "Mar 7, 2018 12:08:16 PM",
+      "dateFinished": "Mar 7, 2018 12:08:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1520424494448_1603154452",
+      "id": "20180307-120814_893046221_q_MH38GHTM2J1507626786",
+      "dateCreated": "Mar 7, 2018 12:08:14 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
